@@ -16,6 +16,7 @@ a {
 .header {
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 10px 200px;
 }
 
 .logo {
@@ -30,17 +31,24 @@ a {
 }
 
 .body1 {
-
+display: flex;
 }
 
 .body2 {
     background-color: #e5e7eb;
+    padding: 50px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .footer {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 32px 96px;
+    margin: 50px 100px;
+    display: flex;
 }
 
 .cta {
@@ -60,4 +68,9 @@ a {
 .footer2 {
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 25px 250px;
+    display: flex;
+    justify-content: center;
+
+    
 }
