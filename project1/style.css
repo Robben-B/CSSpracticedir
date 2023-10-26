@@ -31,7 +31,25 @@ a {
 }
 
 .body1 {
-display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+    justify-content: center;
+}
+
+.img2-container {
+    display: flex;
+    padding: 32px;
+    gap: 50px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    margin: 16px;
+    width: 20px;
 }
 
 .body2 {
@@ -71,6 +89,4 @@ display: flex;
     padding: 25px 250px;
     display: flex;
     justify-content: center;
-
-    
 }
